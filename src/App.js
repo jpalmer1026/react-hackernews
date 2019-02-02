@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import './App.css';
 
 const list = [
@@ -24,9 +24,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-          {list.map(function(item) {
-              return <div>{item.title}</div>;
-          })}
+        {list.map(function (item) {
+          return <div>{item.title}</div>;
+        })}
       </div>
     );
   }
